@@ -35,7 +35,6 @@ void draw() {
  q++;p++;
  if(q>640){q=-640;q++;}
  if(p>640){p=-640;p++;}
- println(q);
  
  //location
  image(Imgx, 580,240); //fighter
