@@ -14,12 +14,12 @@ int p=-640; // the x location of bg2
 void setup () {
   size(640,480) ; 
   
-  Imgx = loadImage("fighter.png");
-  Imgy = loadImage("hp.png");
-  Imgz = loadImage("treasure.png");
-  Imgu = loadImage("enemy.png");
-  Imga = loadImage("bg1.png");
-  Imgb = loadImage("bg2.png");
+  Imgx = loadImage("img/fighter.png");
+  Imgy = loadImage("img/hp.png");
+  Imgz = loadImage("img/treasure.png");
+  Imgu = loadImage("img/enemy.png");
+  Imga = loadImage("img/bg1.png");
+  Imgb = loadImage("img/bg2.png");
   
   w=int(random(15,212)); //hp
   g=int(random(212)); //the x location of treasure
