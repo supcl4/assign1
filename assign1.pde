@@ -23,8 +23,8 @@ void setup () {
   
   w=int(random(15,212)); //hp
   g=int(random(212)); //the x location of treasure
-  f=int(random(420)); //the y location of treasure
-  d=int(random(420)); //the y location of enemy
+  f=int(random(40,420)); //the y location of treasure
+  d=int(random(40,420)); //the y location of enemy
 }
 
 void draw() {
